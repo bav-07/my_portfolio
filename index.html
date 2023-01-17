@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bav Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f58135732.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#welcome-section">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <label class="toggle">
+            <p>DARK MODE </p>
+            <input type="checkbox" onclick="darkMode()"/>
+            <span class="dark-switch"></span>
+        </label>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Bav's Portfolio</h1>
+        </section>
+        <section id="projects">
+            <div class="project-tile">
+                <div class="card">
+                    <img src='https://impvis.co.uk/storage/thumb-6240eef08e0f90fcd16828a832cc419968e53fea.gif'>
+                    <h2>ME2 Vibrations App</h2>
+                    <h3>Final Year Project</h3> <h4>Imperial College London</h4>
+                    <a target="_blank" href="https://impvis.co.uk/launch/me2-vibrations-2-degrees-of-freedom-v2/"><button class="view">V  I  E  W</button></a>
+                </div>
+                <div class="card">
+                    <img src='./Merge no-conflict presentation back-end-1.jpg'>
+                    <h2>Bookshelf API</h2>
+                    <h3>Back-End Project BNTA</h3> <h4>Amy, Bav, Nadia</h4>
+                    <a target="_blank" href="https://github.com/bav-07/online_bookshelf_group_6"><button class="view">V  I  E  W</button></a>
+                </div>
+                <div class="card">
+                    <img src='https://media.wired.com/photos/59549c6338978176dacc652c/master/pass/satoru-iwata-story.jpg'>
+                    <h2>Satoru Iwata Tribute</h2>
+                    <h3>Responsive Web Design Tribute Page</h3> <h4>freeCodeCamp</h4>
+                    <a target="_blank" href="https://bav-07.github.io/iwata_tribute/"><button class="view">V  I  E  W</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a id="profile-link" target="_blank" href="https://github.com/bav-07/"><i class="fa-brands fa-github"></i>
+    </footer>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
