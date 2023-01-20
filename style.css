@@ -221,7 +221,7 @@ body.dark-mode #welcome-section {
 
 .card {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     margin: 3rem;
     background: rgba(125,125,135,0.2);
     border-radius: 25px;
@@ -230,13 +230,15 @@ body.dark-mode #welcome-section {
     border-bottom: 0.25px solid rgba(225,225,235,0.3); 
     border-left: 0.25px solid rgba(225,225,235,0.1);
     border-right: 0.25px solid rgba(225,225,235,0.1);
-    box-shadow: 0 30px 30px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 30px 5px rgba(0,0,0,0.3);
     transition: 0.2s;
 }
 
 .card:hover {
     transform: scale(1.1);
     transition: 0.2s;
+    box-shadow: 0 30px 30px 10px rgba(0,0,0,0.3);
+
 }
 
 .card img {
